@@ -1,4 +1,4 @@
--- PART 3 BSAN 7031 - Dominic Faustini, Grace Dawson, Nicholas Dibari, John Curran, Nathaniel Espelin
+
 /* A */
 SELECT aptno AS Most_Common_Apartment_Numbers
 FROM apartment
