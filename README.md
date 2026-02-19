@@ -1,3 +1,9 @@
+## About the Data
+This project uses a relational database designed to model the operations of a residential property management system. The data captures how buildings are managed, inspected, leased, and maintained. It includes managers who oversee buildings, inspectors who perform scheduled inspections, corporate clients that lease apartments, and staff members. Each building contains multiple apartments with attributes such as number of bedrooms and rent, and apartments may be assigned to corporate tenants. The database also tracks operational relationships, including which managers live in specific buildings, which inspectors service which buildings, and which staff members clean particular apartments. 
+
+## Key Types and Constraints
+Primary keys are used on the tables to uniquely identify each record to ensure that every manager, building, inspector, corporate client, and staff member can be referenced properly. Some entities use composite primary keys, such as apartments and relationship tables like inspecting and cleaning, which represent many-to-many associations. Foreign keys enforce relationships between tables and maintain referential integrity. For example, buildings must reference valid managers, apartments must belong to valid buildings, and cleaning assignments must reference existing apartments. There are also special constraints such as self-referencing foreign keys, unique constraints, and associative tables to model multi-valued and many-to-many relationships. 
+
 ## A. What is/are the most common apartment number(s)? 
 The 3 most common apartment numbers are 21, 11, and 31.
 ## B. How many different apartment numbers are there? 
