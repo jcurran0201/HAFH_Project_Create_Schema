@@ -1,4 +1,3 @@
-# HAFH_Project_Create_Schema 
 ## A. What is/are the most common apartment number(s)? 
 The 3 most common apartment numbers are 21, 11, and 31.
 ## B. How many different apartment numbers are there? 
